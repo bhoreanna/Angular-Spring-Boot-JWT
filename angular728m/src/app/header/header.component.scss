@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #242a33;
+}
+
+.navbar .nav-link,
+.navbar .icons {
+  color: #687384;
+}
+
+.navbar .nav-link:hover,
+.navbar .icons:hover {
+  color: #fff;
+}
+
+.navbar .icon {
+  position: relative;
+}
+
+.navbar .icon::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ef5350;
+}
+// E:\Anna Angular Workspace\28Minutes Spring And Angular\Angular 7\angular728m\src\assets\home.jpg
+
+// body {
+//     background:url(/assets/home.jpg) no-repeat !important;
+//     padding-top:100px;
+//     background-size:cover;
+//   }
+  
+//   .navbar {
+//     background: transparent !important;
+//   }
